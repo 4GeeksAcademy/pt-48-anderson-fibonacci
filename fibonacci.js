@@ -1,5 +1,5 @@
 const imprimirFib = (n, numFibInicio = [0, 1]) => {
-   if (n < numFibInicio.length) {
+   if (n <= numFibInicio.length) {
     return numFibInicio;
   }
 
