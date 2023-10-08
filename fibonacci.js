@@ -1,3 +1,7 @@
+document.querySelector('#button-addon1').addEventListener("click", () => {
+const longitudFib = document.querySelector ("#longitud");
+});
+
 const imprimirFib = (n, numFibInicio = [0, 1]) => {
    if (n <= numFibInicio.length) {
     return numFibInicio;
@@ -10,6 +14,7 @@ const imprimirFib = (n, numFibInicio = [0, 1]) => {
   return imprimirFib(n, numFibInicio);
 };
 
-const newFibonacci = imprimirFib(2);
+const newFibonacci = document.getElementById("respuesta");
+newFibonacci = imprimirFib(longitudFib);
 console.log(newFibonacci);
 
