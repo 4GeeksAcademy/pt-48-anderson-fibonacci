@@ -1,6 +1,4 @@
-body{
-    
-}
+
 body::before{
     content: "";
     background-image: url("./fibonacci\ tatuaje.jpeg");
